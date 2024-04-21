@@ -1,0 +1,3443 @@
+@import url("./fonts.css");
+
+h1 {
+    font-family: 'Manrope-b';
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Neutral';
+}
+header {
+    margin: 15px 0 40px 0;
+    justify-content: space-between;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+    width: 1200px;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+a {
+	text-decoration: none;
+	color: #07172e;
+    font-family: 'Manrope-b';
+}
+p{
+    font-family: 'Manrope-s';  
+}
+ .section-navigation .container{
+    height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 45px;
+}
+.section-navigation .container .opisanie{
+    display: flex;
+	column-gap: 25px;
+}
+ .section-navigation .container .opisanie a{
+    font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+}
+ .section-navigation .container .icons{
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+    margin-right: 50px;
+    
+}
+ .section-navigation .container .icons a:nth-child(1) {
+    
+    width: 60px;
+    height: 60px;
+    background-position: center;
+}
+
+ .section-navigation .container .icons  a:nth-child(2) {
+   
+    width: 60px;
+    height: 60px;
+    background-position: center;
+}
+
+.section-navigation .container .icons  a:nth-child(3) {
+   
+    width: 60px;
+    height: 60px;
+    background-position: center;
+}
+.section-fitnes .container .title{
+    font-size: 25px;
+	padding-bottom: 35px;
+	padding-top: 30px;
+}
+.section-fitnes .container .text p{
+    color: #3c4148;
+	padding-bottom: 60px;
+    font-size: 17px;
+}
+.section-fitnes .container .imgs img{
+    display: block;
+    width: 85%;
+}
+.section-fitnes .container .imgs {
+    margin-top: -350px;
+    margin-left: 550px;
+}
+.section-fitnes .container .btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+}
+.button {
+	width: 260px;
+	height: 75px;
+	color: #f1f4f8;
+	border-radius: 10px;
+	border: 1px #3586ff solid;
+}
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	width: 220px;
+    height: 50px;
+	margin: 0px 4px;
+	border-radius: 10px;
+	background-color: #3586ff;
+	border: 1px #3586ff solid;
+	color: #f1f4f8;
+	font-size: 16px;
+	font-weight: 800;
+	transition: all 0.2s Ease-in;
+	user-select: none;
+}
+.btn:hover {
+	background-color: #f1f4f8;
+	color: #3586ff;
+	Box-shadow: 0 0 2px 6px;
+	border: 0px #3586ff solid;
+	user-select: none;
+}
+.section-course .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-course .container .title h2{
+    font-family: 'Manrope-b';
+    font-size: 40px;
+    color: #07172e;
+    margin-bottom: 40px;
+}
+.section-course .container .choice{
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 300px;
+    column-gap: 40px;
+}
+.section-course .container .choice .cell{
+    background: #f1f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.section-course .container .choice .cell p{
+    font-family: 'Manrope-s';
+    font-size: 22px;
+    color: #07172e;
+}
+.section-course .container button{
+    margin-top: 50px;
+}
+.free {
+    margin: auto;
+    width: 100%;
+    height: 490px;
+    border-radius: 20px;
+    background: url("../img/5.jpg");
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.section-besplatno .text {
+    margin-left: 100px;
+    width: 50%;
+}
+.section-besplatno .text h2 {
+    font-family: 'Manrope-b';
+    font-size: 40px;
+    color: #07172e;
+}
+.section-besplatno .text p {
+    font-family: 'Manrope-s';
+    color: #3c4148;
+    font-size: 17px;
+    margin: 10px 0 30px 0;
+    font-weight: 600;
+}
+.section-besplatno .btn_button a{
+    width: 250px;
+}
+.section-card .container .card{
+    margin: 150px auto 150px auto;
+}
+.section-card .container .card .block1{
+    display: flex;
+    justify-content: space-between;
+}
+.section-card .container .card .block1 .imgs{
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-card .container .card .block1 .imgs  img{
+    width: 600px;
+    border-radius: 20px;
+    height: 350px;
+}
+.section-card .container .card .block1  .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-card .container .card .block1  .text h2{
+    font-family: 'Manrope-b';
+    font-size: 2.625rem;
+    color: #07172e;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.section-card .container .card .block1  .text h2 span{
+    font-family: 'Manrope-s';
+    font-size: 1.125rem;
+    color: #07172e;
+    text-transform: uppercase;
+} 
+.section-card .container .card .block1  .text p{
+    font-family: 'Manrope-s';
+    font-size: 1.125rem;
+    color: #3c4148;
+} 
+.section-card .container .card .block1 .white-cell{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.section-card .container .card .block1 .white-cell .cell{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.section-card .container .card .block1 .white-cell .cell p{
+    font-family: 'Manrope-b';
+    font-size: 15px;
+    color: #07172e;
+}
+.section-card .container .card .block1 .white-cell .cell .icon{
+    display: flex;
+    align-items: center;
+}
+.section-card .container .card .block1 .white-cell .cell .icon img{
+    width: 15px;
+    margin-right: 4px;
+}
+.section-card .container .card .block1  .text .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.section-card .container .card .block1  .text .price h2{
+    font-family: 'Manrope-b';
+    font-size: 45px;
+    color: #07172e;
+    margin: 0;
+} 
+.section-card  .container .block2 .knopki .perecluch{
+    width: 100%;
+    overflow: hidden;
+
+}
+.section-card  .container .block2 .knopki .perecluch .line{
+    width: 300%;
+    display: flex;
+}
+.section-card  .container .block2 .knopki .perecluch .line .text{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+.section-card  .container .block2 .knopki .perecluch .line .text .person{
+    display: flex;
+    width: calc(100%/1.3);
+    justify-content: space-between;
+}
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ .perecluch .text1{
+    opacity: 1;
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text2{
+    opacity: 1;
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text3{
+    opacity: 1;
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    background-color: #3586ff;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+.section-card  .container .block2{
+    margin-top: 60px;
+}
+.section-card  .container .block2 .knopki input{
+    display: none;
+}
+
+.section-card  .container .block2 .knopki label{
+    font-family: 'Manrope-b';
+    font-size: 17px;
+    font-weight: 650;
+    background-color: rgb(250, 249, 249);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 9px;
+    transition: .5s;
+    margin-right: 40px;
+}
+.section-card .container .block2 .knopki .perecluch{
+    margin-top: 40px;
+}
+.section-card  .container .block2 .knopki .perecluch .line .text h3{
+    font-family: 'Manrope-s';
+    font-size: 16px;
+    font-weight: 500;
+}
+.section-card  .container .block2 .knopki .perecluch .line .person h2{
+    font-family: 'Manrope-b';
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.section-card  .container .block2 .knopki .perecluch .line .person {
+    display: flex;
+    gap: 35px;
+    margin-right: 20px;
+}
+.section-card  .container .block2 .knopki .perecluch .line .person h4{
+    font-family: 'Manrope-s';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-card  .container .block2 .knopki .perecluch .line .person .image {
+    width: 260px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.46);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.section-card  .container .block2 .knopki .perecluch .line .person .image .one{
+    background: url(../img/7.png);
+    width: 108px;
+    height: 190px;
+}
+.section-card  .container .block2 .knopki .perecluch .line .person .image .two{
+    background: url(../img/8.png);
+    width: 163px;
+    height: 190px;
+}
+.section-card  .container .block2 .knopki .perecluch .line .person .image .three{
+    background: url(../img/9.png);
+    width: 196px;
+    height: 190px;
+}
+
+.section-card  .container .block2 .knopki .perecluch .line .text1{
+    opacity: 0;
+    transition: .5s;
+}
+.section-card  .container .block2 .knopki .perecluch .line .text2{
+    opacity: 0;
+    transition: .5s;
+}
+.section-card  .container .block2 .knopki .perecluch .line .text3{
+    opacity: 0;
+    transition: .5s;
+}
+.section-fitline{
+    background-color: #f1f4f8;
+    width: 100%;
+}
+.section-fitline .platforma{
+    display: flex;
+    margin: 0px auto;
+    padding: 150px 0 150px 0;
+    justify-content: space-between;
+}
+.section-fitline .platforma .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-fitline .platforma img{
+    border-radius: 20px;
+    width: 100%;
+}
+.section-fitline .platforma .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-fitline .platforma .text h2{
+    font-family: 'Manrope-b';
+    font-size: 45px;
+    color: #07172e;
+}
+.section-fitline .platforma .text p{
+    font-family: 'Manrope-s';
+    font-size: 20px;
+    color: #3c4148;
+    margin: 25px 0 25px 0;
+}
+.section-work .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 100px;
+}
+.section-work .container .title h2{
+    text-align: center;
+    font-family: 'Manrope-b';
+    font-size: 45px;
+    color: #07172e;
+    margin-bottom: 60px;
+}
+.section-work .container .cell{
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+}
+.section-work .container .cell .punkt .number{
+    padding: 8px 0 8px 0;
+    background-color: #3586ff;
+    width: 65px;
+    border-radius: 8px;
+}
+.section-work .container .cell .punkt .number h3{
+    text-align: center;
+    font-family: 'Manrope-s';
+    font-size: 13px;
+    color: #f1f4f8;
+}
+.section-work .container .cell p{
+    font-family: 'Manrope-s';
+    font-size: 16px;
+    color: #3c4148;
+}
+.section-work .container .cell h4{
+    font-family: 'Manrope-b';
+    font-size: 20px;
+    color: #07172e;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+}
+.section-pitanie{
+    margin-top: 120px;
+}
+.section-pitanie .container .food{
+    background: linear-gradient(to right, #e7ebf0 20%, #f0f3f5 80%);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 0 130px 0;
+    border-radius: 20px;
+    width: 100%;
+}
+.section-pitanie .container .food .title{
+    text-align: center;
+}
+.section-pitanie .container .food .title h2{
+    font-family: 'Manrope-b';
+    font-size: 50px;
+    color: #07172e;
+}
+.section-pitanie .container .food .title p{
+    font-family: 'Manrope-s';
+    font-size: 20px;
+    color: #3c4148;
+    margin: 20px auto 40px auto;
+    width: 60%;
+}
+.section-pitanie .container .food form .txt{
+    width: 100%;
+    display: grid;
+    row-gap: 30px;
+    column-gap: 4%;
+    margin: 0 auto 30px auto;
+}
+.section-pitanie .container .food form .email{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.section-pitanie .container .food form .txt input{
+    outline: none;
+    width: 100%;
+    height: 55px;
+    padding-left: 20px;
+    border: 1px solid rgba(109, 119, 132, 0.3);
+    border-radius: 8px;
+    background: linear-gradient(to right, #e7ebf0 20%, #f0f3f5 80%);
+}
+.section-pitanie .container .food form {
+    width: 55%;
+    font-family: 'Manrope-r';
+    font-size: 18px;
+    color: #3c4148;
+    display: flex;
+    flex-direction: column;
+}
+.food form .cel .radio-boxes {
+    margin-top: 15px;
+    display: flex;
+
+}
+.food form .cel .radio-boxes .text {
+    font-family: 'Manrope-b';
+    font-size: 18px;
+    color: #07172e;
+    font-weight: 600;
+    margin: 0 15px 0 10px;
+}
+.food form .radio-boxes label{
+    display: flex;
+    align-items: center;
+}
+.food form .radio-boxes .radio{
+    display: none;
+}
+.food form .radio-boxes .gg{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3586ff;
+    border-radius: 50%;
+    position: relative;
+}
+.food form .radio-boxes .gg::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #3586ff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.food form .radio-boxes .radio:checked + .gg::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.food form .radio .text {
+    padding-left: 10px;
+}
+.food form .check {
+    margin: 35px 0 50px 0;
+}
+.food form .check .label{
+    display: flex;
+    align-items: center;
+}
+.food form .check .checkbox{
+    display: none;
+}
+.food form .check .fake{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3586ff;
+    border-radius: 5px;
+    position: relative;
+}
+.food form .check .fake::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #3586ff;
+    border-radius: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.food form .check .checkbox:checked + .fake::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.food form .check .text {
+    padding-left: 10px;
+    font-family: 'Manrope-s';
+    font-size: 19px;
+}
+.food form .btn_button {
+    align-self: center;
+}
+.section-footer footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 60px auto;
+    font-family: 'Manrope-Regular';
+    font-size: 15px;
+    color: #3c4148;
+}
+.section-footer footer .imgs {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+}
+.section-footer footer a {
+    color: #3c4148;
+    text-decoration: underline;
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 88%;
+    }
+    header .container {
+        width: 88%;
+    }
+    .section-fitnes .container .title{
+        font-size: 20px;
+    }
+    .section-fitnes .container .text p{
+        padding-bottom: 50px;
+        font-size: 15px;
+    }
+    .section-fitnes .container .imgs img{
+        width: 500px;
+    }
+    .section-fitnes .container .imgs {
+        margin-top: -330px;
+        margin-left: 430px;
+    }
+    .section-course .container .choice{
+        display: grid;
+        grid-template-columns: repeat(3, 320px);
+        grid-template-rows: 300px;
+        column-gap: 40px;
+    }
+    .section-besplatno .text p {
+        font-size: 16px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-family: 'Manrope-b';
+        font-size: 13px;
+        color: #07172e;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 11px;
+        margin-right: 4px;
+    }
+    .section-card .container .card .block1 .white-cell .cell{
+        width: 48%;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 570px;
+        height: 360px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person {
+        width: 770px;
+    }
+    .section-fitline .platforma img{
+        width: 500px;
+        height: 410px;
+    }
+    .section-fitline .platforma .text h2{
+        font-size: 42px;
+    }
+    .section-fitline .platforma .text p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+    .section-fitnes .container .title{
+        font-size: 18px;
+    }
+    .section-fitnes .container .text p{
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+    .section-fitnes .container .imgs img{
+        width: 450px;
+    }
+    .section-fitnes .container .imgs {
+        margin-top: -330px;
+        margin-left: 390px;
+    }
+    .section-navigation .container .icons{
+        margin-top: -60px;
+        margin-right: 250px;
+    }
+    .section-navigation .container .icons a:nth-child(1) {
+        width: 40px;
+        height: 40px;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 40px;
+        height: 40px;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+    .section-course .container .title h2{
+        font-size: 35px;
+        margin-right: 220px;
+    }
+    .section-course .container .choice{
+        grid-template-columns: repeat(3, 260px);
+        grid-template-rows: 260px;
+        column-gap: 40px;
+        margin-left: -220px;
+    }
+    .section-course .container .choice .cell img{
+        width: 150px;
+        height: 180px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+        margin-left: -290px;
+    }
+    .section-besplatno{
+        margin-left: -330px;
+    }
+    .free {
+        width: 870px;
+        height: 390px;
+        margin-top: 100px;
+    }
+    .section-besplatno .text {
+        margin-left: 60px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 33px;
+    }
+    .section-besplatno .text p {
+        font-size: 14px;
+    }
+    .section-besplatno .btn_button a{
+        width: 220px;
+        margin-left: -0px;
+    }
+    .section-card{
+        margin-right: 320px;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 450px;
+        height: 280px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 15px;
+    } 
+    .section-card .container .card .block1  .text p{
+        font-size: 15px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 10px;
+        width: 50%;
+
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 12px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-right: 4px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 30px;
+    } 
+    .btn {
+        width: 150px;
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    .section-fitline{
+        margin-left: -150px;
+    }
+    .section-fitline .platforma img{
+        width: 450px;
+        height: 370px;
+        margin-left: 60px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: -20px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 35px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: -65px;
+    }
+    .section-work{
+        margin-left: -260px;
+    }
+    .section-work .container .title h2{
+        font-size: 45px;
+        margin-left: -100px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 14px;
+    }
+    .section-work .container .cell p{
+        font-size: 18px;
+        width: 350px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr 1fr ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 20px;
+    }
+    .section-pitanie{
+        margin-left: -250px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 40px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 15px;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 14px;
+    }
+    .section-card  .container .block2 .knopki label{
+        font-size: 15px;
+        margin-right: 40px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .text h3{
+        font-size: 12px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h2{
+        font-size: 13px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h4{
+        font-size: 10px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image {
+        width: 280px;
+        height: 200px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .one{
+        background: url(../img/7.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 60px;
+        height: 230px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .two{
+        background: url(../img/8.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100px;
+        height: 160px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .three{
+        background: url(../img/9.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 110px;
+        height: 200px;
+    }
+    .section-card  .container .block2 .knopki label{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 90%;
+        height: 45px;
+        padding-left: 20px;
+        background: linear-gradient(to right, #e7ebf0 20%, #f0f3f5 80%);
+    }
+    .section-card  .container .block2 .knopki {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section-card  .container .block2 .knopki label{
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .section-card  .container .block2 .knopki  .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-card  .container .block2 .knopki  .perecluch .line .text h3{
+        width: 90%;
+        margin-bottom: 40px;
+        font-size: 13px;
+    }
+    .section-card  .container .block2 .knopki  .perecluch .line .text .person{
+        width: 90%;
+    }
+}
+@media (max-width: 810px) {
+    .container{
+        width:  1080px;
+    }
+    .section-navigation .container .opisanie{
+        margin-left: 20px;
+    }
+    .section-navigation .container .logo img{
+        width: 70px;
+    }
+     .section-navigation .container .opisanie a{
+        font-size: 12px;
+    }
+     .section-navigation .container .icons{
+        margin-top: -90px;
+        margin-right: 520px;
+        gap: 35px;
+    }
+     .section-navigation .container .icons a:nth-child(1) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {   
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+    .section-fitnes .container .title{
+        font-size: 11px;
+    }
+    .section-fitnes .container .text p{
+        padding-bottom:50px;
+        font-size: 14px;
+        width: 20%;
+    }
+    .section-fitnes .container .imgs img{
+        width: 00px;
+    }
+    .section-fitnes .container .imgs {
+        margin-top: -370px;
+        margin-left: 230px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 130px;
+        height: 40px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-course .container .title h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .section-course .container .choice{
+        grid-template-columns: repeat(3, 190px);
+        grid-template-rows: 180px;
+    }
+    .section-course .container{
+        margin-right: 425px;
+    }
+    .section-course .container .choice .cell p{
+        font-size: 18px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+    }
+    .section-course .container .choice .cell img{
+       width: 100px;
+       height: 120px;
+    }
+    .section-besplatno{
+        margin-left: -520px;
+    }
+    .free {
+        width: 650px;
+        height: 290px;
+        margin-top: 100px;
+    }
+    .section-besplatno .text {
+        margin-left: 60px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 25px;
+    }
+    .section-besplatno .text p {
+        font-size: 10px;
+    }
+    .section-besplatno .btn_button a{
+        width: 170px;
+        margin-left: -0px;
+    }
+    .section-card{
+        margin-right: 520px;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 310px;
+        height: 200px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 10px;
+    } 
+    .section-card .container .card .block1  .text p{
+        font-size: 10px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 8px;
+        width: 90%;
+        gap: 0px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-right: 5px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 23px;
+
+    } 
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: -100px;
+        margin-bottom: -10px;
+    }
+    .section-fitline{
+        margin-left: -250px;
+    }
+    .section-fitline .platforma img{
+        width: 300px;
+        height: 250px;
+        margin-left: 60px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: -20px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 25px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: 100px;
+    }
+    .section-work{
+        margin-left: -460px;
+    }
+    .section-work .container .title h2{
+        font-size: 35px;
+        margin-left: -80px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 12px;
+    }
+    .section-work .container .cell p{
+        font-size: 15px;
+        width: 250px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr 1fr ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 17px;
+    }
+    .section-pitanie{
+        margin-left: -450px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 30px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 12px;
+    }
+    .section-pitanie .container .food form .txt{
+        width: 100%;
+        display: grid;
+        row-gap: 30px;
+        column-gap: 4%;
+        margin: 0 auto 30px auto;
+    }
+    .section-pitanie .container .food form .email{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 100%;
+        height: 45px;
+    }
+    .section-pitanie .container .food form {
+        width: 55%;
+        font-size: 13px;
+    }
+    .food form .cel .radio-boxes {
+        margin-top: 15px;
+        display: flex;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 13px;
+    }
+    .food form .radio-boxes .gg{
+        width: 18px;
+        height: 15px;
+    }
+    .food form .check .fake{
+        width: 18px;
+        height: 15px;
+    }
+    .food form .check .text {
+        font-size: 15px;
+    }
+    .section-footer footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 60px auto;
+        font-family: 'Manrope-Regular';
+        font-size: 12px;
+        color: #3c4148;
+    }
+    .section-footer footer .imgs  {
+        display: flex;
+        align-items: center;
+        width: 15%;
+        justify-content: space-between;
+
+    }
+    .section-footer footer a {
+        color: #3c4148;
+        text-decoration: underline;
+    }
+    .section-fitnes .container .btn {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 160px;
+        height: 75px;
+        color: #f1f4f8;
+        border-radius: 10px;
+        border: 1px #3586ff solid;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 110px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+    .section-navigation .container .opisanie{
+        margin-left: 20px;
+    }
+    .section-navigation .container .logo img{
+        width: 70px;
+    }
+     .section-navigation .container .opisanie a{
+        font-size: 12px;
+    }
+     .section-navigation .container .icons{
+        margin-top: -90px;
+        margin-right: 520px;
+        gap: 35px;
+    }
+     .section-navigation .container .icons a:nth-child(1) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {   
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+    .section-fitnes .container .title{
+        font-size: 11px;
+    }
+    .section-fitnes .container .text p{
+        padding-bottom:50px;
+        font-size: 14px;
+        width: 20%;
+    }
+    .section-fitnes .container .imgs img{
+        width: 400px;
+    }
+    .section-fitnes .container .imgs {
+        margin-top: -370px;
+        margin-left: 230px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 130px;
+        height: 40px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-course .container .title h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .section-course .container .choice{
+        grid-template-columns: repeat(3, 190px);
+        grid-template-rows: 180px;
+    }
+    .section-course .container{
+        margin-right: 425px;
+    }
+    .section-course .container .choice .cell p{
+        font-size: 18px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+    }
+    .section-course .container .choice .cell img{
+       width: 100px;
+       height: 120px;
+    }
+    .section-besplatno{
+        margin-left: -520px;
+    }
+    .free {
+        width: 650px;
+        height: 290px;
+        margin-top: 100px;
+    }
+    .section-besplatno .text {
+        margin-left: 60px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 25px;
+    }
+    .section-besplatno .text p {
+        font-size: 10px;
+    }
+    .section-besplatno .btn_button a{
+        width: 170px;
+        margin-left: -0px;
+    }
+    .section-card{
+        margin-right: 520px;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 310px;
+        height: 200px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 10px;
+    } 
+    .section-card .container .card .block1  .text p{
+        font-size: 10px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 8px;
+        width: 90%;
+        gap: 0px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-right: 5px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 23px;
+
+    } 
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: -100px;
+        margin-bottom: -10px;
+    }
+    .section-fitline{
+        margin-left: -250px;
+    }
+    .section-fitline .platforma img{
+        width: 300px;
+        height: 250px;
+        margin-left: 60px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: -20px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 25px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: 100px;
+    }
+    .section-work{
+        margin-left: -460px;
+    }
+    .section-work .container .title h2{
+        font-size: 35px;
+        margin-left: -80px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 12px;
+    }
+    .section-work .container .cell p{
+        font-size: 15px;
+        width: 250px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr 1fr ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 17px;
+    }
+    .section-pitanie{
+        margin-left: -450px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 30px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 12px;
+    }
+    .section-pitanie .container .food form .txt{
+        width: 100%;
+        display: grid;
+        row-gap: 30px;
+        column-gap: 4%;
+        margin: 0 auto 30px auto;
+    }
+    .section-pitanie .container .food form .email{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 100%;
+        height: 45px;
+    }
+    .section-pitanie .container .food form {
+        width: 55%;
+        font-size: 13px;
+    }
+    .food form .cel .radio-boxes {
+        margin-top: 15px;
+        display: flex;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 13px;
+    }
+    .food form .radio-boxes .gg{
+        width: 18px;
+        height: 15px;
+    }
+    .food form .check .fake{
+        width: 18px;
+        height: 15px;
+    }
+    .food form .check .text {
+        font-size: 15px;
+    }
+    .section-footer footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 60px auto;
+        font-family: 'Manrope-Regular';
+        font-size: 12px;
+        color: #3c4148;
+    }
+    .section-footer footer .imgs  {
+        display: flex;
+        align-items: center;
+        width: 15%;
+        justify-content: space-between;
+
+    }
+    .section-footer footer a {
+        color: #3c4148;
+        text-decoration: underline;
+    }
+    .section-fitnes .container .btn {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 160px;
+        height: 75px;
+        color: #f1f4f8;
+        border-radius: 10px;
+        border: 1px #3586ff solid;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 110px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    .section-navigation .container{
+        margin-left: 30px;
+    }
+    .section-navigation .container .opisanie{
+        margin-left: 20px;
+    }
+    .section-navigation .container .logo img{
+        width: 60px;
+    }
+     .section-navigation .container .opisanie a{
+        font-size: 10px;
+    }
+     .section-navigation .container .icons {
+        margin-top: -60px;
+        margin-right: 620px;
+        gap: 35px;
+    }
+    .section-navigation .container .icons img {
+        width: 80px;
+        height: 80px;
+    }
+     .section-navigation .container .icons a:nth-child(1) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 5px;
+        height: 5px;
+        background-position: center;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {   
+        width: 5px; 
+        height: 5px;
+        background-position: center;
+    }
+    .section-fitnes .container .title{
+        font-size: 9px;
+    }
+    .section-fitnes .container {
+        margin-left: 20px;
+    }
+    .section-fitnes .container .text p{
+        padding-bottom:50px;
+        font-size: 12px;
+        width: 20%;
+    }
+    .section-fitnes .container .imgs img{
+        width: 300px;
+    }
+    .section-fitnes .container .imgs {
+        margin-top: -280px;
+        margin-left: 200px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 80px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 11px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-course .container .title h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-left: -80px;
+    }
+    .section-course .container{
+        margin-right: 525px;
+    }
+    .section-course .container .choice .cell p{
+        font-size: 15px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+        margin-left: -310px;
+    }
+    .section-course .container .choice .cell img{
+       width: 130px;
+       height: 160px;
+    }
+    .section-course .container .choice  {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: -300px;
+        gap: 40px;
+        width: 200px;
+     }
+    .section-besplatno{
+        margin-left: -685px;
+    }
+    .free {
+        width: 500px;
+        height: 250px;
+        margin-top: 100px;
+    }
+    .section-besplatno .text {
+        margin-left: 30px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 20px;
+    }
+    .section-besplatno .text p {
+        font-size: 10px;
+    }
+    .section-besplatno .btn_button a{
+        width: 120px;
+        height: 28px;
+        margin-left: -0px;
+        font-size: 10px;
+    }
+    .section-card{
+        margin-right: 650px;
+    }
+    .section-card .container .card .block1 {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: 40px;
+        gap: 40px;
+        width: 200px;
+    
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h2{
+        font-family: 'Manrope-b';
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person {
+        display: flex;
+        gap: 35px;
+        margin-right: 20px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h4{
+        font-family: 'Manrope-s';
+        font-size: 9px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 430px;
+        height: 280px;
+        margin-left: -10px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 13px;
+    } 
+    .section-card .container .card .block1  .text {
+        font-size: 20px;
+        width: 250px;
+    } 
+    .section-card .container .card .block1  .text p {
+        font-size: 13px;
+
+    } 
+    .section-card .container .card .block1  .text {
+        margin-left: 0px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 8px;
+        width: 90%;
+        gap: 0px;
+    }
+    .section-card .container .card .block1 .white-cell{
+        margin-left: 0px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 13px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-right: 5px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 23px;
+        margin-top: 20px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .one{
+        background: url(../img/7.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 50px;
+        height: 170px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .two{
+        background: url(../img/8.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90px;
+        height: 200px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .three{
+        background: url(../img/9.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 110px;
+        height: 200px;
+    }
+    .section-card .container .card .block1  .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: -100px;
+        margin-bottom: -20px;
+    }
+    .section-fitline .container .platforma{
+        margin-left: 100px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        gap: 40px;
+    }
+    .section-fitline .platforma img{
+        width: 420px;
+        height: 320px;
+        margin-left: -350px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: -150px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 30px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 14px;
+        width: 200%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: -0px;
+    }
+    .section-work{
+        margin-left: -660px;
+    }
+    .section-work .container .title h2{
+        font-size: 35px;
+        margin-left: -80px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 14px;
+    }
+    .section-work .container .cell p{
+        font-size: 15px;
+        width: 200px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr 1fr ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 17px;
+    }
+    .section-pitanie{
+        margin-left: -650px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 25px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 12px;
+        width: 350px;
+    }
+    .section-pitanie .container .food form .txt{
+        width: 100%;
+        display: grid;
+        row-gap: 30px;
+        column-gap: 4%;
+        margin: 0 auto 30px auto;
+    }
+    .section-pitanie .container .food form .email{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 100%;
+        height: 35px;
+    }
+    .section-pitanie .container .food form {
+        width: 65%;
+        font-size: 10px;
+    }
+    .food form .cel .radio-boxes {
+        margin-top: 15px;
+        display: flex;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 11px;
+        width: 70px;
+    }
+    .food form .radio-boxes .gg{
+        width: 12px;
+        height: 12px;
+    }
+    .food form .check .fake{
+        width: 12px;
+        height: 12px;
+    }
+    .food form .check .text {
+        font-size: 12px;
+    }
+    .section-footer footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 60px auto;
+        font-family: 'Manrope-Regular';
+        font-size: 12px;
+        color: #3c4148;
+    }
+    .section-footer footer .imgs  {
+        display: flex;
+        align-items: center;
+        width: 20%;
+        justify-content: space-between;
+
+    }
+    .section-footer footer a {
+        color: #3c4148;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+    .section-footer footer p {
+        font-size: 10px;
+        width: 100px;
+    }
+    .section-fitnes .container .btn {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 160px;
+        height: 75px;
+        color: #f1f4f8;
+        border-radius: 10px;
+        border: 1px #3586ff solid;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 110px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        width: 600px;
+    }
+    .section-navigation .container{
+        margin-left: 30px;
+    }
+    .section-navigation .container .opisanie{
+        margin-left: 50px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr 1fr  ;
+        margin-top: 20px;
+    }
+    .section-navigation .container .logo img{
+        width: 60px;
+        
+    }
+     .section-navigation .container .opisanie a{
+        font-size: 11px;
+    }
+     .section-navigation .container .icons {
+        margin-top: -60px;
+        margin-right: 720px;
+        gap: 35px;
+        
+    }
+    .section-navigation .container .icons img {
+        width: 80px;
+        height: 80px;
+    }
+     .section-navigation .container .icons a:nth-child(1) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 5px;
+        height: 5px;
+        background-position: center;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {   
+        width: 5px; 
+        height: 5px;
+        background-position: center;
+    }
+    .section-fitnes .container .title{
+        font-size: 7px;
+    }
+    .section-fitnes .container  {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-fitnes .container .text{
+        margin-bottom: 100px;
+    }
+    .section-fitnes .container .text p{
+        font-size: 10px;
+        width: 15%;
+    }
+    .section-fitnes .container .imgs img{
+        width: 200px;
+    }
+    .section-fitnes .container .imgs {
+        margin-top: -330px;
+        margin-left: 170px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 11px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-course .container .title h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-left: -80px;
+    }
+    .section-course .container{
+        margin-right: 525px;
+    }
+    .section-course .container .choice .cell p{
+        font-size: 15px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+        margin-left: -710px;
+    }
+    .section-course .container .choice .cell img{
+       width: 130px;
+       height: 160px;
+    }
+    .section-course .container .choice  {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: -700px;
+        gap: 40px;
+        width: 200px;
+     }
+    .section-besplatno{
+        margin-left: -685px;
+    }
+    .free {
+        background: url(../img/5.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 200px;
+        margin-left: 360px;
+    }
+    .section-besplatno .text {
+        margin-left: 20px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 15px;
+    }
+    .section-besplatno .text p {
+        font-size: 10px;
+        width: 200px;
+    }
+    .section-besplatno .btn_button a{
+        width: 120px;
+        height: 28px;
+        margin-left: -0px;
+        font-size: 10px;
+    }
+    .section-besplatno .container .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 90px;
+        height: 25px;
+        margin: 0px 4px;
+        border-radius: 6px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 8px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-card  .container .block2 .knopki label{
+        font-family: 'Manrope-b';
+        font-size: 11px;
+        font-weight: 650;
+        background-color: rgb(250, 249, 249);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 9px;
+        transition: .5s;
+        margin-right: 40px;
+
+    }
+    .section-card  .container .block2{
+        margin-left: -50px;
+    }
+    .section-card{
+        margin-right: 650px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .text h3{
+        font-family: 'Manrope-s';
+        font-size: 13px;
+        font-weight: 500;
+        width: 400px;
+    }
+    .section-card .container .card .block1 {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: 40px;
+        gap: 40px;
+        width: 200px;
+    
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image {
+        width: 250px;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.46);
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h2{
+        font-family: 'Manrope-b';
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person {
+        display: flex;
+        gap: 35px;
+        margin-right: 0px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h4{
+        font-family: 'Manrope-s';
+        font-size: 9px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 360px;
+        height: 230px;
+        margin-left: -10px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 13px;
+    } 
+    .section-card .container .card .block1  .text {
+        font-size: 20px;
+        width: 250px;
+    } 
+    .section-card .container .card .block1  .text p {
+        font-size: 13px;
+
+    } 
+    .section-card .container .card .block1  .text {
+        margin-left: 0px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 8px;
+        width: 90%;
+        gap: 0px;
+    }
+    .section-card .container .card .block1 .white-cell{
+        margin-left: 0px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 13px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-right: 5px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 23px;
+        margin-top: 20px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell2{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell3 {
+        font-size: 10px;
+        margin-left: -80px;
+    }
+    .section-card .container .card .block1 .white-cell .cell2 .icon img{
+        width: 12px;
+        margin-left: -0px;
+    }
+    
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .one{
+        background: url(../img/7.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 50px;
+        height: 190px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .two{
+        background: url(../img/8.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90px;
+        height: 200px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .three{
+        background: url(../img/9.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 110px;
+        height: 200px;
+    }
+    .section-card .container .card .block1  .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: -100px;
+        margin-bottom: -20px;
+    }
+    .section-fitline .container .platforma{
+        margin-left: 100px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        gap: 40px;
+    }
+    .section-fitline .platforma img{
+        width: 350px;
+        height: 250px;
+        margin-left: -430px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: 200px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 25px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 14px;
+        width: 60%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: -0px;
+    }
+    .section-work{
+        margin-right: -850px;
+    }
+    .section-work .container .title h2{
+        font-size: 30px;
+        margin-left: -900px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 14px;
+    }
+    .section-work .container .cell p{
+        font-size: 15px;
+        width: 200px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr  ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 17px;
+    }
+    .section-pitanie{
+        margin-left: -650px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 20px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 10px;
+        width: 300px;
+    }
+    .section-pitanie .container .food form .txt{
+        width: 100%;
+        display: grid;
+        row-gap: 30px;
+        column-gap: 4%;
+        margin: 0 auto 30px auto;
+    }
+    .section-pitanie .container .food{
+        background: linear-gradient(to right, #e7ebf0 20%, #f0f3f5 80%);
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 130px 0 130px 0;
+        border-radius: 20px;
+        width: 30%;
+        margin-left: 380px;
+    }
+    .section-pitanie .container .food form .email{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 100%;
+        height: 25px;
+    }
+    .section-pitanie .container .food form {
+        width: 65%;
+        font-size: 10px;
+    }
+    .food form .cel .radio-boxes {
+        margin-top: 15px;
+        display: flex;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 10px;
+        width: 50px;
+    }
+    .food form .radio-boxes .gg{
+        width: 12px;
+        height: 12px;
+    }
+    .food form .check .fake{
+        width: 12px;
+        height: 10px;
+    }
+    .food form .check .text {
+        font-size: 12px;
+    }
+    .section-footer footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 60px auto;
+        font-family: 'Manrope-r';
+        font-size: 12px;
+        color: #3c4148;
+    }
+    .section-footer footer .imgs  {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        justify-content: space-between;
+        margin-right: 350px;
+    }
+    .section-footer footer a {
+        color: #3c4148;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+    .section-footer footer p {
+        font-size: 10px;
+        width: 50px;
+        margin-left: 400px;
+    }
+    .section-fitnes .container .btn {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 160px;
+        height: 75px;
+        color: #f1f4f8;
+        border-radius: 10px;
+        border: 1px #3586ff solid;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 110px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+}
+@media(max-width:320px){
+    .container{
+        width: 400px;
+    }
+     .section-fitnes .container .title{
+        font-size: 5px;
+    }
+     .section-fitnes .container  {
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+      .section-fitnes .container .text{
+        margin-bottom: -30px;
+    }
+     .section-fitnes .container .text p{
+        font-size: 9px;
+        width: 10%;
+    }
+    .section-fitnes .container .imgs img{
+        width: 130px;
+    }
+     .section-fitnes .container .imgs {
+        margin-top: -190px;
+        margin-left: 140px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 11px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-navigation .container{
+        margin-left: 30px;
+    }
+    .section-navigation .container .opisanie{
+        margin-left: 20px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr 1fr  ;
+        margin-top: 20px;
+    }
+    .section-navigation .container .logo img{
+        width: 40px;
+        
+    }
+     .section-navigation .container .opisanie a{
+        font-size: 8px;
+    }
+     .section-navigation .container .icons {
+        margin-top: -30px;
+        margin-right: 820px;
+        gap: 20px;
+        
+    }
+    .section-navigation .container .icons img {
+        width: 50px;
+        height: 50px;
+    }
+     .section-navigation .container .icons a:nth-child(1) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 5px;
+        height: 5px;
+        background-position: center;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {   
+        width: 5px; 
+        height: 5px;
+        background-position: center;
+    }
+    .section-course .container .title h2{
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-left: -420px;
+    }
+    .section-course .container{
+        margin-left: -70px;
+        margin-top: 100px;
+    }
+    .section-course .container .choice .cell p{
+        font-size: 15px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+        margin-left: -710px;
+    }
+    .section-course .container .choice .cell img{
+       width: 130px;
+       height: 160px;
+    }
+    .section-course .container .choice  {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: -700px;
+        gap: 40px;
+        width: 200px;
+     }
+    .section-besplatno{
+        margin-left: -685px;
+    }
+    .free {
+        background: url(../img/5.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+        height: 150px;
+        margin-left: 360px;
+    }
+    .section-besplatno .text {
+        margin-left: 20px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 10px;
+    }
+    .section-besplatno .text p {
+        font-size: 6px;
+        width: 100px;
+    }
+    .section-besplatno .btn_button a{
+        width: 120px;
+        height: 28px;
+        font-size: 7px;
+    }
+    .section-besplatno .container .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 70px;
+        height: 25px;
+        margin: 0px 4px;
+        border-radius: 6px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 8px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-card  .container .block2 .knopki label{
+        font-family: 'Manrope-b';
+        font-size: 11px;
+        font-weight: 650;
+        background-color: rgb(250, 249, 249);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 9px;
+        transition: .5s;
+        margin-right: 40px;
+
+    }
+    .section-card  .container .block2{
+        margin-left: -50px;
+    }
+    .section-card{
+        margin-right: 650px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .text h3{
+        font-family: 'Manrope-s';
+        font-size: 10px;
+        font-weight: 500;
+        width: 300px;
+        margin-left: -50px;
+    }
+    .section-card  .container .block2 .knopki{
+        margin-left: -140px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-card .container .card .block1 {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: 40px;
+        gap: 40px;
+        width: 200px;
+    
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image {
+        width: 250px;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.46);
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h2{
+        font-family: 'Manrope-b';
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person{
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person {
+        display: flex;
+        gap: 35px;
+        margin-right: 0px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h4{
+        font-family: 'Manrope-s';
+        font-size: 9px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 230px;
+        height: 150px;
+        margin-left: -20px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 10px;
+    } 
+    .section-card .container .card .block1  .text {
+        font-size: 20px;
+        width: 250px;
+
+    } 
+    .section-card .container .card .block1  .text p {
+        font-size: 11px;
+        width: 150px;
+
+    } 
+    .section-card .container .card .block1  .text {
+        margin-left: 0px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 8px;
+        width: 90%;
+        gap: 0px;
+    }
+    .section-card .container .card .block1 .white-cell{
+        margin-left: 0px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-left: 20px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 19px;
+        margin-top: 20px;
+    } 
+    .section-card .container .card .block1  .text .price .btn_button a{
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: -150px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell2{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell3 {
+        font-size: 10px;
+        margin-left: -80px;
+    }
+    .section-card .container .card .block1 .white-cell .cell2 .icon img{
+        width: 12px;
+        margin-left: -0px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .one{
+        background: url(../img/7.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 50px;
+        height: 190px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .two{
+        background: url(../img/8.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90px;
+        height: 200px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .three{
+        background: url(../img/9.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 110px;
+        height: 200px;
+    }
+    .section-card .container .card .block1  .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: -100px;
+        margin-bottom: -20px;
+    }
+    .section-fitline .container .platforma{
+        margin-left: 100px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        gap: 40px;
+    }
+    .section-fitline .platforma img{
+        width: 250px;
+        height: 200px;
+        margin-left: -590px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: 160px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 20px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 12px;
+        width: 40%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: -0px;
+    }
+    .section-work{
+        margin-right: -730px;
+    }
+    .section-work .container .title h2{
+        font-size: 25px;
+        margin-left: -950px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 12px;
+    }
+    .section-work .container .cell p{
+        font-size: 13px;
+        width: 200px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr  ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 17px;
+    }
+    .section-pitanie{
+        margin-left: -750px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 16px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 10px;
+        width: 200px;
+    }
+    .section-pitanie .container .food form .txt{
+        width: 100%;
+        display: grid;
+        row-gap: 30px;
+        column-gap: 4%;
+        margin: 0 auto 30px auto;
+    }
+    .section-pitanie .container .food{
+        background: linear-gradient(to right, #e7ebf0 20%, #f0f3f5 80%);
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 130px 0 130px 0;
+        border-radius: 20px;
+        width: 22%;
+        margin-left: 390px;
+    }
+    .section-pitanie .container .food form .email{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 100%;
+        height: 25px;
+    }
+    .section-pitanie .container .food form {
+        width: 65%;
+        font-size: 10px;
+    }
+    .food form .cel .radio-boxes {
+        margin-top: 15px;
+        display: flex;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 8px;
+        width: 35px;
+    }
+    .food form .radio-boxes .gg{
+        width: 9px;
+        height: 9px;
+    }
+    .food form .check .fake{
+        width: 10px;
+        height: 10px;
+    }
+    .food form .check .text {
+        font-size: 10px;
+    }
+    .section-footer footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 60px auto;
+        font-family: 'Manrope-r';
+        font-size: 12px;
+        color: #3c4148;
+    }
+    .section-footer footer .imgs  {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        justify-content: space-between;
+        margin-right: 350px;
+    }
+    .section-footer footer .imgs  img{
+        width: 15px;
+        height: 15px;
+    }
+    .section-footer footer a {
+        color: #3c4148;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+    .section-footer footer p {
+        font-size: 10px;
+        width: 50px;
+        margin-left: 400px;
+    }
+    .section-fitnes .container .btn {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 160px;
+        height: 75px;
+        color: #f1f4f8;
+        border-radius: 10px;
+        border: 1px #3586ff solid;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 110px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+}
+@media(max-width:391px){
+    .container{
+        width: 400px;
+    }
+    .section-navigation .container{
+        margin-left: 30px;
+    }
+    .section-navigation .container .opisanie{
+        margin-left: 30px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr 1fr  ;
+        margin-top: 20px;
+    }
+    .section-navigation .container .logo img{
+        width: 50px;
+        
+    }
+     .section-navigation .container .opisanie a{
+        font-size: 9px;
+    }
+     .section-navigation .container .icons {
+        margin-top: -30px;
+        margin-right: 770px;
+        gap: 20px;
+        
+    }
+    .section-navigation .container .icons img {
+        width: 50px;
+        height: 50px;
+    }
+     .section-navigation .container .icons a:nth-child(1) {
+        width: 10px;
+        height: 10px;
+        background-position: center;
+    }
+     .section-navigation .container .icons  a:nth-child(2) {
+        width: 5px;
+        height: 5px;
+        background-position: center;
+    }
+    .section-navigation .container .icons  a:nth-child(3) {   
+        width: 5px; 
+        height: 5px;
+        background-position: center;
+    }
+    .section-fitnes .container .title{
+        font-size: 7px;
+        width: 30px;
+    }
+     .section-fitnes .container  {
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+      .section-fitnes .container .text{
+        margin-bottom: -30px;
+    }
+     .section-fitnes .container .text p{
+        font-size: 10px;
+        width: 10%;
+    }
+    .section-fitnes .container .imgs img{
+        width: 180px;
+    }
+     .section-fitnes .container .imgs {
+        margin-top: -260px;
+        margin-left: 120px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 11px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-course .container .title h2{
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-left: -420px;
+    }
+    .section-course .container{
+        margin-left: -50px;
+        margin-top: 150px;
+    }
+    .section-course .container .choice .cell p{
+        font-size: 15px;
+    }
+    .section-course .container button{
+        margin-top: 50px;
+        margin-left: -710px;
+    }
+    .section-course .container .choice .cell img{
+       width: 130px;
+       height: 160px;
+    }
+    .section-course .container .choice  {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: -700px;
+        gap: 40px;
+        width: 200px;
+     }
+     .section-besplatno{
+        margin-left: -665px;
+    }
+    .free {
+        background: url(../img/5.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 150px;
+        margin-left: 360px;
+    }
+    .section-besplatno .text {
+        margin-left: 20px;
+        width: 50%;
+    }
+    .section-besplatno .text h2 {
+        font-size: 10px;
+    }
+    .section-besplatno .text p {
+        font-size: 6px;
+        width: 100px;
+    }
+    .section-besplatno .btn_button a{
+        width: 120px;
+        height: 28px;
+        font-size: 7px;
+    }
+    .section-besplatno .container .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 70px;
+        height: 25px;
+        margin: 0px 4px;
+        border-radius: 6px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 8px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+    .section-card  .container .block2 .knopki label{
+        font-family: 'Manrope-b';
+        font-size: 11px;
+        font-weight: 650;
+        background-color: rgb(250, 249, 249);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 9px;
+        transition: .5s;
+        margin-right: 40px;
+
+    }
+    .section-card  .container .block2{
+        margin-left: -50px;
+    }
+    .section-card{
+        margin-right: 680px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .text h3{
+        font-family: 'Manrope-s';
+        font-size: 13px;
+        font-weight: 500;
+        width: 300px;
+        margin-left: -30px;
+    }
+    .section-card  .container .block2 .knopki{
+        margin-left: -80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-card .container .card .block1 {
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        margin-left: 40px;
+        gap: 40px;
+        width: 200px;
+    
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image {
+        width: 250px;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.46);
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h2{
+        font-family: 'Manrope-b';
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person{
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person {
+        display: flex;
+        gap: 35px;
+        margin-right: 0px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person h4{
+        font-family: 'Manrope-s';
+        font-size: 9px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section-card .container .card .block1 .imgs  img{
+        width: 260px;
+        height: 160px;
+        margin-left: 0px;
+    }
+    .section-card .container .card .block1  .text h2{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .section-card .container .card .block1  .text h2 span{
+        font-size: 10px;
+    } 
+    .section-card .container .card .block1  .text {
+        font-size: 20px;
+        width: 250px;
+
+    } 
+    .section-card .container .card .block1  .text p {
+        font-size: 11px;
+        width: 150px;
+
+    } 
+    .section-card .container .card .block1  .text {
+        margin-left: 0px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        padding: 8px;
+        width: 90%;
+        gap: 0px;
+    }
+    .section-card .container .card .block1 .white-cell{
+        margin-left: 0px;
+    }
+    .section-card .container .card .block1 .white-cell .cell p{
+        font-size: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell .icon img{
+        width: 12px;
+        margin-left: 20px;
+    }
+    .section-card .container .card .block1  .text .price h2{
+        font-size: 19px;
+        margin-top: 20px;
+    } 
+    .section-card .container .card .block1  .text .price .btn_button a{
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: -150px;
+    } 
+    .section-card .container .card .block1 .white-cell .cell{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell2{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .section-card .container .card .block1 .white-cell .cell3 {
+        font-size: 10px;
+        margin-left: -80px;
+    }
+    .section-card .container .card .block1 .white-cell .cell2 .icon img{
+        width: 12px;
+        margin-left: -0px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .one{
+        background: url(../img/7.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 50px;
+        height: 190px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .two{
+        background: url(../img/8.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 90px;
+        height: 200px;
+    }
+    .section-card  .container .block2 .knopki .perecluch .line .person .image .three{
+        background: url(../img/9.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 110px;
+        height: 200px;
+    }
+    .section-card .container .card .block1  .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: -100px;
+        margin-bottom: -20px;
+    }
+    .section-fitline .container .platforma{
+        margin-left: 100px;
+        display: grid;
+        width: 100%; 
+        grid-template-columns: 1fr  ;
+        gap: 40px;
+    }
+    .section-fitline .container {
+        margin-left: 30px;
+    }
+    .section-fitline .platforma img{
+        width: 250px;
+        height: 200px;
+        margin-left: -590px;
+    }
+    .section-fitline .container .platforma .text{
+        width: 50%;
+        margin-left: 160px;
+    }
+    .section-fitline .container .platforma .text h2{
+        font-size: 20px;
+        width: 350px;
+    }
+    .section-fitline .container .platforma .text p{
+        font-size: 12px;
+        width: 40%;
+    }
+    .section-fitline .container .platforma .btn_button{
+        margin-left: -0px;
+    }
+    .section-work{
+        margin-right: -770px;
+    }
+    .section-work .container .title h2{
+        font-size: 25px;
+        margin-left: -950px;
+    }
+    .section-work .container .cell .punkt .number h3{
+        font-size: 12px;
+    }
+    .section-work .container .cell p{
+        font-size: 13px;
+        width: 200px;
+    }
+    .section-work .container .cell{
+        display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr  ;
+       margin-left: 20px;
+       gap: 50px;
+    }
+    .section-work .container .cell h4{
+        font-size: 17px;
+    }
+    .section-pitanie{
+        margin-left: -750px;
+    }
+    .section-pitanie .container .food .title h2{
+        font-size: 16px;
+    }
+    .section-pitanie .container .food .title p{
+        font-size: 10px;
+        width: 200px;
+    }
+    .section-pitanie .container .food form .txt{
+        width: 100%;
+        display: grid;
+        row-gap: 30px;
+        column-gap: 4%;
+        margin: 0 auto 30px auto;
+    }
+    .section-pitanie .container .food{
+        background: linear-gradient(to right, #e7ebf0 20%, #f0f3f5 80%);
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 130px 0 130px 0;
+        border-radius: 20px;
+        width: 28%;
+        margin-left: 390px;
+    }
+    .section-pitanie .container .food form .email{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section-pitanie .container .food form .txt input{
+        width: 100%;
+        height: 25px;
+    }
+    .section-pitanie .container .food form {
+        width: 65%;
+        font-size: 10px;
+    }
+    .food form .cel .radio-boxes {
+        margin-top: 15px;
+        display: flex;
+    }
+    .food form .cel .radio-boxes .text {
+        font-size: 11px;
+        width: 50px;
+    }
+    .food form .radio-boxes .gg{
+        width: 9px;
+        height: 9px;
+    }
+    .food form .check .fake{
+        width: 10px;
+        height: 10px;
+    }
+    .food form .check .text {
+        font-size: 10px;
+    }
+    .section-footer footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto 60px auto;
+        font-family: 'Manrope-r';
+        font-size: 12px;
+        color: #3c4148;
+    }
+    .section-footer footer .imgs  {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        justify-content: space-between;
+        margin-right: 350px;
+    }
+    .section-footer footer .imgs  img{
+        width: 15px;
+        height: 15px;
+    }
+    .section-footer footer a {
+        color: #3c4148;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+    .section-footer footer p {
+        font-size: 10px;
+        width: 50px;
+        margin-left: 400px;
+    }
+    .section-fitnes .container .btn {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 160px;
+        height: 75px;
+        color: #f1f4f8;
+        border-radius: 10px;
+        border: 1px #3586ff solid;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 110px;
+        height: 35px;
+        margin: 0px 4px;
+        border-radius: 10px;
+        background-color: #3586ff;
+        border: 1px #3586ff solid;
+        color: #f1f4f8;
+        font-size: 13px;
+        font-weight: 800;
+        transition: all 0.2s Ease-in;
+        user-select: none;
+    }
+}
